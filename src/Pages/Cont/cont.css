@@ -1,0 +1,89 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    width: 100%;
+}
+
+.log, .conttext {
+    flex-grow: 0;
+}
+
+.log {
+    width: 500px;
+    height:  600px;
+}
+
+.conttext{
+    position: relative;
+    left: 320px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 50;
+    line-height: 1.5;
+    font-size: 20px;
+}
+
+.loginbtn{
+    position: relative;
+    top: 450px;
+    left: 70px;
+    height: 50px;
+    width: 100px;
+    border-radius: 25px;
+    color: white;
+    background-color: black;
+    cursor: pointer;
+  }
+
+  .loginbtn:hover {
+    background-color: #ffffff; /* Green */
+    color: rgba(0, 0, 0, 0.966);
+  }
+.AppGlass2 {
+  
+    background: var(--glass);
+    background-color: var(--boxShadow);
+    background-color: whitesmoke;
+    display: grid;
+    height:  600px;
+    width: 70%;
+    border-radius: 2rem;
+    gap: 10px;
+    grid-template-columns: 11rem auto 20rem;
+    overflow: hidden;
+  }
+  
+  @media screen and (max-width: 1200px) {
+    .AppGlass2{
+      grid-template-columns: 10% 50% auto;
+      overflow-y: scroll;
+    } 
+  }
+  
+  @media screen and (max-width: 768px) {
+    .AppGlass2{
+      grid-template-columns: 1fr;
+    } 
+  }
+
+  .dec{
+    position: absolute;
+    top: 600px;
+    left: 700px;
+    width: 100%;
+    height: 100%;
+    background-color: #efa441;
+    clip-path: circle(200px);
+  }
+
+  .dec1{
+    position: absolute;
+    top: 600px;
+    right: 800px;
+    width: 100%;
+    height: 100%;
+    background-color: #efa441;
+    clip-path: circle(250px);
+  }

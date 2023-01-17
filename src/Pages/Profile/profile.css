@@ -1,0 +1,36 @@
+.profile {
+  background: url("https://tse1.mm.bing.net/th?id=OIP.Url9qfFTggLW2dQIz4wtWQHaFj&pid=Api&P=0");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.profilecontent {
+  padding: 2px;
+  margin: -6% 3% 3% 3%;
+  text-align: center;
+  justify-content: center;
+  background-color: white;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  backdrop-filter: saturate(200%) blur(30px);
+  box-shadow: 20px black;
+  border-radius: 12px;
+}
+
+.profileimg {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  position: relative;
+  left: 0;
+  right: 0;
+  margin: auto;
+  top: -80px;
+  /* background-color: white; */
+  border: 3px solid white;
+}
+
+.details {
+  margin-top: -6%;
+}

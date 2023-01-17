@@ -1,0 +1,25 @@
+.headerbox {
+  height: 75vh;
+  width: 100%;
+  /* background-color: rgb(51, 51, 51); */
+  /* background: url("../../../public/images/header.jpg"); */
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: grid;
+  place-items: center;
+}
+.quote {
+  color: white;
+  font-size: 30px;
+  font-family: "Lora", serif;
+  margin-top: -20%;
+}
+
+.topbar{
+  background-color: rgb(206, 204, 204);
+  width: 80%;
+  border-radius: 10px;
+  text-align: center;
+  position: sticky;
+  margin-top: -9%;
+}
